@@ -10,6 +10,9 @@ let cookieElement = document.getElementById("Cookielabel")
 function getbig(){
     document.getElementById("cookieimg").style.width = "250px";
 }
+function getsmall() {
+  document.getElementById("cookieimg").style.width = "200px";
+}
 
 function Increasecookies(){
   gameInfo.cookieAmount += 1
